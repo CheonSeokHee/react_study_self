@@ -76,7 +76,6 @@ function createBulkTodos() {
   //   },
   //   [todos],
   // );
-
   function todoReducer(todos, action) {
     switch (action.type) {
       case 'INSERT': // 새로 추가
